@@ -11,4 +11,5 @@
     <string name="q_clang">C was initially used as the development language of the UNIX operating system.</string>
     <string name="q_dotnet">Visual Basic .NET, is object oriented and provides reusable components that programmers can use to develop applications.</string>
     <string name="q_cdbash">The cd command changes directories.</string>
+    <string name="made_by">Wykonał Szymon Kozłowski 107793</string>
 </resources>

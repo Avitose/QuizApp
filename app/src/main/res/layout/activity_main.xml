@@ -17,8 +17,7 @@
     <GridLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:columnCount="2" >
-
+    android:columnCount="2"  >
     <Button
         android:id="@+id/button_true"
         android:layout_width="wrap_content"
@@ -35,4 +34,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_next"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/made_by" android:layout_marginTop="20dp" android:textAlignment="center"/>
 </LinearLayout>
