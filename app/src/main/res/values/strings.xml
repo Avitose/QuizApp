@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="button_next">Next</string>
+    <string name="correct_answer">The answer is correct!</string>
+    <string name="incorrect_answer">Incorrect answer!</string>
+    <string name="q_hardware">The programs that run on a computer are referred to as hardware.</string>
+    <string name="q_arpanet">The ARPANET was a predecessor to the Internet.</string>
+    <string name="q_interpreter">Interpreter programs execute high-level language programs without compiling them into machine language first.</string>
+    <string name="q_clang">C was initially used as the development language of the UNIX operating system.</string>
+    <string name="q_dotnet">Visual Basic .NET, is object oriented and provides reusable components that programmers can use to develop applications.</string>
+    <string name="q_cdbash">The cd command changes directories.</string>
+</resources>
