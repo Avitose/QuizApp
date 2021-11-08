@@ -1,0 +1,28 @@
+Analiza cyklu życia aplikacji z wykorzystaniem logow LogCat
+
+
+--pierwsze uruchomienie aplikacji
+
+2021-11-08 10:12:49.298 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onCreate
+2021-11-08 10:12:49.437 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onStart
+2021-11-08 10:12:49.438 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onResume
+
+--obrot ekranu aplikacji - wraz z napisanym onSaveInstanceState
+
+2021-11-08 10:13:12.308 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onPause
+2021-11-08 10:13:12.372 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onStop
+2021-11-08 10:13:12.376 15184-15184/com.avito.quizapp D/MainActivity: Wywołano onSaveInstanceState
+2021-11-08 10:13:12.377 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onDestroy
+2021-11-08 10:13:12.417 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onCreate
+2021-11-08 10:13:12.527 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onStart
+2021-11-08 10:13:12.528 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onResume
+
+--przelaczenie do innego activity
+2021-11-08 10:13:41.709 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onPause
+2021-11-08 10:13:42.441 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onStop
+2021-11-08 10:13:42.442 15184-15184/com.avito.quizapp D/MainActivity: Wywołano onSaveInstanceState
+
+
+--powrot do glownego activity
+021-11-08 10:14:03.809 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onStart
+2021-11-08 10:14:03.810 15184-15184/com.avito.quizapp D/MainActivity: Wywołano life cycle method: onResume

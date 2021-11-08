@@ -3,6 +3,9 @@
     <string name="button_true">True</string>
     <string name="button_false">False</string>
     <string name="button_next">Next</string>
+    <string name="button_hint">Hint</string>
+    <string name="button_show_answer">Show answer</string>
+    <string name="prompt_label">Do you really wanna see true answer?</string>
     <string name="correct_answer">The answer is correct!</string>
     <string name="incorrect_answer">Incorrect answer!</string>
     <string name="q_hardware">The programs that run on a computer are referred to as hardware.</string>
@@ -12,4 +15,5 @@
     <string name="q_dotnet">Visual Basic .NET, is object oriented and provides reusable components that programmers can use to develop applications.</string>
     <string name="q_cdbash">The cd command changes directories.</string>
     <string name="made_by">Wykonał Szymon Kozłowski 107793</string>
+    <string name="answer_was_shown">You ve seen hint. You can only use skip now!</string>
 </resources>
